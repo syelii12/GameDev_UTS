@@ -9,30 +9,23 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float runSpeed = 8f;
     public float jumpForce = 10f;
-    public float climbSpeed = 3f;
 
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer sprite;
-    private PlayerController playerController;
+    private PlayerController playerController; // tambahkan PlayerInputActions
+
+    // Untuk input dari button UI
+    private float mobileInputX = 0f;
 
     private Vector2 moveInput;
-    private bool isRunning = false;
-    private bool isCrouching = false;
-    private bool isClimbing = false;
+    private bool isJumping = false;
 
-    private enum MovementState { idle, run, jump, climb, crouch }
+    private enum MovementState { idle, walk, jump, fall, run}
 
-    [Header("Environment Checks")]
+    [Header("Jump Settings")]
     [SerializeField] private LayerMask jumpableGround;
-    [SerializeField] private LayerMask climbableLayer;
     private BoxCollider2D coll;
-
-    [Header("Crouch Settings")]
-    [SerializeField] private Vector2 crouchColliderSize = new Vector2(1f, 0.5f);
-    [SerializeField] private Vector2 crouchColliderOffset = new Vector2(0f, -0.25f);
-    private Vector2 originalColliderSize;
-    private Vector2 originalColliderOffset;
 
     private void Awake()
     {
@@ -41,10 +34,7 @@ public class PlayerMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         coll = GetComponent<BoxCollider2D>();
 
-        originalColliderSize = coll.size;
-        originalColliderOffset = coll.offset;
-
-        playerController = new PlayerController(); // Input System class
+        playerController = new PlayerController(); //Inisialisasi PlayerInputActions
     }
 
     private void OnEnable()
@@ -55,14 +45,8 @@ public class PlayerMovement : MonoBehaviour
         playerController.Movement.Move.canceled += ctx => moveInput = Vector2.zero;
 
         playerController.Movement.Jump.performed += ctx => Jump();
-        playerController.Movement.Run.performed += ctx => isRunning = true;
-        playerController.Movement.Run.canceled += ctx => isRunning = false;
 
-        playerController.Movement.Crouch.performed += ctx => isCrouching = true;
-        playerController.Movement.Crouch.canceled += ctx => isCrouching = false;
-
-        playerController.Movement.Climb.performed += ctx => isClimbing = true;
-        playerController.Movement.Climb.canceled += ctx => isClimbing = false;
+        
     }
 
     private void OnDisable()
@@ -70,89 +54,112 @@ public class PlayerMovement : MonoBehaviour
         playerController.Disable();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (isClimbing && CanClimb())
+        // Jika menggunakan mobile input, pakai itu
+        if (Application.isMobilePlatform)
         {
-            rb.gravityScale = 0f;
-            rb.velocity = new Vector2(rb.velocity.x, moveInput.y * climbSpeed);
+            moveInput = new Vector2(mobileInputX, 0f);
         }
         else
         {
-            rb.gravityScale = 1f;
-            float speed = isRunning ? runSpeed : moveSpeed;
-            float finalSpeed = isCrouching ? speed * 0.5f : speed;
-            rb.velocity = new Vector2(moveInput.x * finalSpeed, rb.velocity.y);
+            // Kalau bukan mobile, pakai Input System
+            moveInput = playerController.Movement.Move.ReadValue<Vector2>();
         }
 
+    }
+
+    private void FixedUpdate()
+    {
+        //gabungan mobile
+        Vector2 targetVelocity = new Vector2((moveInput.x + mobileInputX) * moveSpeed, rb.velocity.y);
+        rb.velocity = targetVelocity;
+
         UpdateAnimation();
+
+        // Reset isJumping hanya saat grounded dan velocity Y mendekati 0
+        if (isGrounded() && Mathf.Abs(rb.velocity.y) < 0.01f)
+        {
+            isJumping = false;
+        }
+
     }
 
     private void UpdateAnimation()
     {
         MovementState state;
 
-        if (isClimbing && Mathf.Abs(moveInput.y) > 0.1f)
+        // Gabungkan input dari keyboard dan mobile
+        float horizontal = moveInput.x != 0 ? moveInput.x : mobileInputX;
+
+        // Cek arah jalan
+        if (horizontal > 0f)
         {
-            state = MovementState.climb;
+            state = MovementState.walk;
+            sprite.flipX = false;
         }
-        else if (isCrouching && IsGrounded())
+        else if (horizontal < 0f)
         {
-            state = MovementState.crouch;
-        }
-        else if (!IsGrounded())
-        {
-            state = MovementState.jump;
-        }
-        else if (moveInput.x != 0f)
-        {
-            state = MovementState.run;
-            sprite.flipX = moveInput.x < 0f;
+            state = MovementState.walk;
+            sprite.flipX = true;
         }
         else
         {
             state = MovementState.idle;
         }
 
+        // Cek apakah sedang lompat atau jatuh
+        if (rb.velocity.y > 0.1f)
+        {
+            state = MovementState.jump;
+        }
+        else if (rb.velocity.y < -0.1f)
+        {
+            state = MovementState.fall;
+        }
+
         anim.SetInteger("state", (int)state);
     }
 
-    private void HandleCrouch()
-    {
-        if (isCrouching && IsGrounded())
-        {
-            coll.size = crouchColliderSize;
-            coll.offset = crouchColliderOffset;
-        }
-        else
-        {
-            coll.size = originalColliderSize;
-            coll.offset = originalColliderOffset;
-        }
-    }
 
-    private bool IsGrounded()
+    private bool isGrounded()
     {
-        return Physics2D.BoxCast(
-            coll.bounds.center,
-            coll.bounds.size,
-            0f,
-            Vector2.down,
-            0.1f,
-            jumpableGround
-        );
-    }
-
-    private bool CanClimb()
-    {
-        return Physics2D.OverlapBox(transform.position, coll.size, 0f, climbableLayer);
+        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
 
     private void Jump()
     {
-        if (IsGrounded() && !isCrouching && !isClimbing)
+        // Cek ulang grounded saat ini, dan jangan gunakan isJumping (karena bisa delay)
+        if (isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            isJumping = true;
+        }
+    }
+
+    // Fungsi ini dipanggil saat tombol kanan ditekan
+    public void MoveRight(bool isPressed)
+    {
+        if (isPressed)
+            mobileInputX = 1f;
+        else if (mobileInputX == 1f)
+            mobileInputX = 0f;
+    }
+
+    public void MoveLeft(bool isPressed)
+    {
+        if (isPressed)
+            mobileInputX = -1f;
+        else if (mobileInputX == -1f)
+            mobileInputX = 0f;
+    }
+
+    // Fungsi ini dipanggil saat tombol lompat ditekan
+    public void MobileJump()
+    {
+        if (isGrounded())
+        {
+            Jump();
         }
     }
 }
