@@ -134,8 +134,9 @@ GameObject:
   - component: {fileID: 153586968}
   - component: {fileID: 153586967}
   - component: {fileID: 153586966}
+  - component: {fileID: 153586969}
   m_Layer: 0
-  m_Name: Poin (7)
+  m_Name: Poin (7cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,6 +235,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &153586969
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153586965}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cf80416d131531d48a99e706d7a15c26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &157859739
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,8 +465,9 @@ GameObject:
   - component: {fileID: 162560279}
   - component: {fileID: 162560278}
   - component: {fileID: 162560277}
+  - component: {fileID: 162560280}
   m_Layer: 0
-  m_Name: Poin (1)
+  m_Name: Poin (1cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -543,6 +566,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &162560280
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162560276}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b1676893a9fffcc4f9fc9efa707a781e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &162967428
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,8 +598,9 @@ GameObject:
   - component: {fileID: 162967431}
   - component: {fileID: 162967430}
   - component: {fileID: 162967429}
+  - component: {fileID: 162967432}
   m_Layer: 0
-  m_Name: Poin (11)
+  m_Name: Poin (11cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -654,6 +699,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &162967432
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162967428}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 23b93d819bc45864ba868058198c3131, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &195311070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,8 +1185,9 @@ GameObject:
   - component: {fileID: 225685504}
   - component: {fileID: 225685503}
   - component: {fileID: 225685502}
+  - component: {fileID: 225685505}
   m_Layer: 0
-  m_Name: Poin (10)
+  m_Name: Poin (10cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1219,6 +1286,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &225685505
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225685501}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f383d3a3e6c5d8947a2119f300e35b5a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &292141845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1318,7 @@ GameObject:
   - component: {fileID: 292141848}
   - component: {fileID: 292141847}
   - component: {fileID: 292141846}
+  - component: {fileID: 292141849}
   m_Layer: 0
   m_Name: Poin (Mutiara) (9)
   m_TagString: Poin
@@ -1330,6 +1419,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &292141849
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292141845}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c67e3daaeac0ed34caeaf539de5718c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &306303266
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,6 +1451,7 @@ GameObject:
   - component: {fileID: 306303269}
   - component: {fileID: 306303268}
   - component: {fileID: 306303267}
+  - component: {fileID: 306303270}
   m_Layer: 0
   m_Name: Poin (Mutiara) (4)
   m_TagString: Poin
@@ -1441,6 +1552,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &306303270
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306303266}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b770b8eda956ec94bb8005234d2b43d0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &362655300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,8 +1584,9 @@ GameObject:
   - component: {fileID: 362655303}
   - component: {fileID: 362655302}
   - component: {fileID: 362655301}
+  - component: {fileID: 362655304}
   m_Layer: 0
-  m_Name: Poin (3)
+  m_Name: Poin (3cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1552,6 +1685,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &362655304
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362655300}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5efd21996899f9b4f9a5ba6c0faf298a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &367191165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1563,8 +1717,9 @@ GameObject:
   - component: {fileID: 367191168}
   - component: {fileID: 367191167}
   - component: {fileID: 367191166}
+  - component: {fileID: 367191169}
   m_Layer: 0
-  m_Name: Poin (9)
+  m_Name: Poin (9cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1663,6 +1818,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &367191169
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367191165}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 64bea536eb6aa624da99a81c0f188fe3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &390765786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,8 +1850,9 @@ GameObject:
   - component: {fileID: 390765789}
   - component: {fileID: 390765788}
   - component: {fileID: 390765787}
+  - component: {fileID: 390765790}
   m_Layer: 0
-  m_Name: Poin
+  m_Name: Poin (cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1774,6 +1951,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &390765790
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390765786}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 186f1d0590eea5d43a67c68df66ce0ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &431736715
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,8 +1983,9 @@ GameObject:
   - component: {fileID: 431736718}
   - component: {fileID: 431736717}
   - component: {fileID: 431736716}
+  - component: {fileID: 431736719}
   m_Layer: 0
-  m_Name: Poin (6)
+  m_Name: Poin (6cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1885,6 +2084,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &431736719
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431736715}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1887bdebdcc9c344f85d68aa9b256687, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &458682038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,6 +2116,7 @@ GameObject:
   - component: {fileID: 458682041}
   - component: {fileID: 458682040}
   - component: {fileID: 458682039}
+  - component: {fileID: 458682042}
   m_Layer: 0
   m_Name: Poin (Mutiara) (8)
   m_TagString: Poin
@@ -1996,6 +2217,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &458682042
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458682038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 877320b3abcf90c4dbd4918f9c6dba95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &460855757
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,8 +2249,9 @@ GameObject:
   - component: {fileID: 460855760}
   - component: {fileID: 460855759}
   - component: {fileID: 460855758}
+  - component: {fileID: 460855761}
   m_Layer: 0
-  m_Name: Poin (5)
+  m_Name: Poin (5cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2100,13 +2343,34 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460855757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.7, y: 4.1, z: 0}
+  m_LocalPosition: {x: 19.13, y: 5.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &460855761
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460855757}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ad534d9296da24418a9193b561fa7a1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,8 +2501,9 @@ GameObject:
   - component: {fileID: 552063083}
   - component: {fileID: 552063082}
   - component: {fileID: 552063081}
+  - component: {fileID: 552063084}
   m_Layer: 0
-  m_Name: Poin (4)
+  m_Name: Poin (4cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2337,6 +2602,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &552063084
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552063080}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ae3a6d25016cff498a66b17ca2466c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &552952778
 GameObject:
   m_ObjectHideFlags: 3
@@ -2799,6 +3085,7 @@ GameObject:
   - component: {fileID: 651186687}
   - component: {fileID: 651186686}
   - component: {fileID: 651186685}
+  - component: {fileID: 651186688}
   m_Layer: 0
   m_Name: Poin (Mutiara) (2)
   m_TagString: Poin
@@ -2899,6 +3186,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &651186688
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651186684}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3aef09ef130bff64c8243311dc05a5dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &674262195
 GameObject:
   m_ObjectHideFlags: 0
@@ -7454,8 +7762,9 @@ GameObject:
   - component: {fileID: 688240786}
   - component: {fileID: 688240785}
   - component: {fileID: 688240784}
+  - component: {fileID: 688240787}
   m_Layer: 0
-  m_Name: Poin (14)
+  m_Name: Poin (14cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7554,6 +7863,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &688240787
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688240783}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e4f073c579b430543b69c40bad2bc9d1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &689242132
 GameObject:
   m_ObjectHideFlags: 0
@@ -7746,8 +8076,9 @@ GameObject:
   - component: {fileID: 769043440}
   - component: {fileID: 769043439}
   - component: {fileID: 769043438}
+  - component: {fileID: 769043441}
   m_Layer: 0
-  m_Name: Poin (13)
+  m_Name: Poin (13cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7846,6 +8177,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &769043441
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769043437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a1275374b77f94469cb079b670da0fc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &894557876
 GameObject:
   m_ObjectHideFlags: 0
@@ -7857,8 +8209,9 @@ GameObject:
   - component: {fileID: 894557879}
   - component: {fileID: 894557878}
   - component: {fileID: 894557877}
+  - component: {fileID: 894557880}
   m_Layer: 0
-  m_Name: Poin (8)
+  m_Name: Poin (8cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7957,6 +8310,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &894557880
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894557876}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 853aefc77fea6994ca72da3ac95ce593, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &896642686
 GameObject:
   m_ObjectHideFlags: 0
@@ -18056,6 +18430,7 @@ GameObject:
   - component: {fileID: 1053735702}
   - component: {fileID: 1053735701}
   - component: {fileID: 1053735700}
+  - component: {fileID: 1053735703}
   m_Layer: 0
   m_Name: Poin (Mutiara) (5)
   m_TagString: Poin
@@ -18156,6 +18531,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1053735703
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053735699}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e3b739ac0af41e43a1980161332f1b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1278138858
 GameObject:
   m_ObjectHideFlags: 0
@@ -18402,8 +18798,9 @@ GameObject:
   - component: {fileID: 1381868774}
   - component: {fileID: 1381868773}
   - component: {fileID: 1381868772}
+  - component: {fileID: 1381868775}
   m_Layer: 0
-  m_Name: Poin (2)
+  m_Name: Poin (2cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18502,6 +18899,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1381868775
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381868771}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6572de6413555e14487a306a635924c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1387589870
 GameObject:
   m_ObjectHideFlags: 0
@@ -18650,6 +19068,7 @@ GameObject:
   - component: {fileID: 1424185858}
   - component: {fileID: 1424185857}
   - component: {fileID: 1424185856}
+  - component: {fileID: 1424185859}
   m_Layer: 0
   m_Name: Poin (Mutiara) (7)
   m_TagString: Poin
@@ -18750,6 +19169,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1424185859
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424185855}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3402a27c8de46d24f84429e6b013ab02, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1553424882
 GameObject:
   m_ObjectHideFlags: 0
@@ -18761,8 +19201,9 @@ GameObject:
   - component: {fileID: 1553424885}
   - component: {fileID: 1553424884}
   - component: {fileID: 1553424883}
+  - component: {fileID: 1553424886}
   m_Layer: 0
-  m_Name: Poin (15)
+  m_Name: Poin (15cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18861,6 +19302,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1553424886
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553424882}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33a0959242ff85545b88e942ba514237, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1554210356
 GameObject:
   m_ObjectHideFlags: 0
@@ -18872,6 +19334,7 @@ GameObject:
   - component: {fileID: 1554210359}
   - component: {fileID: 1554210358}
   - component: {fileID: 1554210357}
+  - component: {fileID: 1554210360}
   m_Layer: 0
   m_Name: Poin (Mutiara) (3)
   m_TagString: Poin
@@ -18972,6 +19435,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1554210360
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554210356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc689b1dbfc6ad14da160dab355e5a82, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1595907402
 GameObject:
   m_ObjectHideFlags: 0
@@ -19051,6 +19535,7 @@ GameObject:
   - component: {fileID: 1654854980}
   - component: {fileID: 1654854979}
   - component: {fileID: 1654854978}
+  - component: {fileID: 1654854981}
   m_Layer: 0
   m_Name: Poin (Mutiara) (6)
   m_TagString: Poin
@@ -19151,6 +19636,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1654854981
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654854977}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a66684e351f545c4f9ebf38b08f0df98, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1731865449
 GameObject:
   m_ObjectHideFlags: 0
@@ -19341,6 +19847,7 @@ GameObject:
   - component: {fileID: 1829597209}
   - component: {fileID: 1829597208}
   - component: {fileID: 1829597207}
+  - component: {fileID: 1829597210}
   m_Layer: 0
   m_Name: Poin (Mutiara) (1)
   m_TagString: Poin
@@ -19441,6 +19948,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1829597210
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829597206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5817b8e9330cf7842afac76f8a104614, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1840703555
 GameObject:
   m_ObjectHideFlags: 0
@@ -19545,8 +20073,9 @@ GameObject:
   - component: {fileID: 1858722657}
   - component: {fileID: 1858722656}
   - component: {fileID: 1858722655}
+  - component: {fileID: 1858722658}
   m_Layer: 0
-  m_Name: Poin (12)
+  m_Name: Poin (12cerry)
   m_TagString: Poin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19645,6 +20174,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1858722658
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858722654}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dc567395a2e255a4a8c13df3f69f7945, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1870409992
 GameObject:
   m_ObjectHideFlags: 0
@@ -19911,6 +20461,7 @@ GameObject:
   - component: {fileID: 1910076503}
   - component: {fileID: 1910076502}
   - component: {fileID: 1910076501}
+  - component: {fileID: 1910076504}
   m_Layer: 0
   m_Name: Poin (Mutiara)
   m_TagString: Poin
@@ -20011,6 +20562,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1910076504
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910076500}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d45b796c79c8719499e71ab435880084, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1919713375
 GameObject:
   m_ObjectHideFlags: 0
